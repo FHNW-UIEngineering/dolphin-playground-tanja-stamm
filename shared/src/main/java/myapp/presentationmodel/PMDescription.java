@@ -8,12 +8,9 @@ import myapp.util.AttributeDescription;
  * Specifies/describes all the PresentationModels of this application.
  *
  * Although technically feasible, there shouldn't be any PresentationModel that's not described here.
- *
- * @author Dieter Holz
  */
 public enum PMDescription {
 
-    //todo: add all application specific PMDescriptions
     CANTON("CantonPM", "CANTON", CantonAtt.values()),
 
 

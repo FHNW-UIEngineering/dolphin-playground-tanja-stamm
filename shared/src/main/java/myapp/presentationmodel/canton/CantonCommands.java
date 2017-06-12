@@ -1,8 +1,6 @@
 package myapp.presentationmodel.canton;
 
-/**
- * todo: specify all commands you need in your corresponding controller
- */
+
 public interface CantonCommands {
 	String LOAD_SOME_CANTON = unique("loadSomeCanton");
 	String SAVE             = unique("save");

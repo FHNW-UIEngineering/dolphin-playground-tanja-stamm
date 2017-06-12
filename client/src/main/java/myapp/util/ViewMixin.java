@@ -2,9 +2,7 @@ package myapp.util;
 
 import java.util.List;
 
-/**
- * @author Dieter Holz
- */
+
 public interface ViewMixin {
 
     default void init() {

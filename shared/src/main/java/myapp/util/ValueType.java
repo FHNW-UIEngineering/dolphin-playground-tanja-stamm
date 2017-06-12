@@ -1,8 +1,6 @@
 package myapp.util;
 
-/**
- * @author Dieter Holz
- */
+
 public enum ValueType {
     //todo: add your application specific value types
     ID,

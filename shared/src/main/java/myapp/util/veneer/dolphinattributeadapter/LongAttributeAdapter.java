@@ -6,8 +6,6 @@ import org.opendolphin.core.Attribute;
 
 /**
  * Adapter for a Dolphin Attribute of type Long.
- *
- * @author Dieter Holz
  */
 public class LongAttributeAdapter extends SimpleLongProperty {
     private final ObjectAttributeAdapter<Long> wrapper;

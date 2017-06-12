@@ -6,8 +6,7 @@ import org.opendolphin.core.Attribute;
 
 /**
  * Adapter for a Dolphin Attribute of type Boolean.
- *
- * @author Dieter Holz
+
  */
 public class BooleanAttributeAdapter extends SimpleBooleanProperty{
     private final ObjectAttributeAdapter<Boolean> wrapper;

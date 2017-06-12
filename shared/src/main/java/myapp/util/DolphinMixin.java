@@ -11,8 +11,6 @@ import myapp.presentationmodel.PMDescription;
 
 /**
  * Some useful convenience methods for dealing with PMDescription and AttributeDescription
- *
- * @author Dieter Holz
  */
 public interface DolphinMixin {
     Dolphin getDolphin();

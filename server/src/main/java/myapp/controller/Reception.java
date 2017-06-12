@@ -7,7 +7,6 @@ import myapp.service.SomeService;
 
 /**
  * At the reception all controllers check in.
- *
  */
 
 public class Reception extends DolphinServerAction {

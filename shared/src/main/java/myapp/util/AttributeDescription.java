@@ -2,9 +2,7 @@ package myapp.util;
 
 import myapp.presentationmodel.PMDescription;
 
-/**
- * @author Dieter Holz
- */
+
 public interface AttributeDescription {
     PMDescription getPMDescription();
 

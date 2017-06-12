@@ -15,8 +15,6 @@ import myapp.presentationmodel.canton.CantonCommands;
 import myapp.service.SomeService;
 import myapp.util.Controller;
 
-/**
- */
 class CantonController extends Controller implements BasePmMixin {
 
     private final SomeService service;
@@ -48,7 +46,7 @@ class CantonController extends Controller implements BasePmMixin {
 
     @Override
     protected void setupValueChangedListener() {
-        cantonProxy.name.valueProperty().addListener(((observable, oldValue, newValue) -> {
+        cantonProxy.mainTown.valueProperty().addListener(((observable, oldValue, newValue) -> {
             if(newValue.equals("zug")){
                 getApplicationState().language.setValue(Language.ENGLISH);
             } else {

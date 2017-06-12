@@ -9,10 +9,6 @@ import myapp.presentationmodel.presentationstate.ApplicationState;
 import myapp.util.Controller;
 import myapp.util.Language;
 
-/**
- *
- * @author Dieter Holz
- */
 public class ApplicationStateController extends Controller implements BasePmMixin {
 
     private ApplicationState ps;

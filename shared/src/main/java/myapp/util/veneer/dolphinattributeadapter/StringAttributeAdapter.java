@@ -6,8 +6,6 @@ import org.opendolphin.core.Attribute;
 
 /**
  * Adapter for a Dolphin Attribute of type String.
-
- * @author Dieter Holz
  */
 public class StringAttributeAdapter extends SimpleStringProperty {
     private final ObjectAttributeAdapter<String> wrapper;

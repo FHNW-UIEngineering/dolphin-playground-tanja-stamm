@@ -35,8 +35,6 @@ import myapp.util.veneer.PresentationModelVeneer;
  * Defines several template-methods to initialize a controller properly.
  *
  * Provides some convenient helper-methods.
- *
- * @author Dieter Holz
  */
 public abstract class Controller extends DolphinServerAction implements DolphinMixin, DTOMixin {
 

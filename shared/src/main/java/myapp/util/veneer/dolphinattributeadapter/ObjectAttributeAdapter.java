@@ -13,8 +13,6 @@ import org.opendolphin.core.PresentationModel;
  * JavaFX property wrapper around the value of a dolphin attribute.
  * <p>
  * Changing the dirty state or any other meta-info of the attribute will not trigger a valueChangeEvent.
- *
- * @author Dieter Holz
  */
 public class ObjectAttributeAdapter<T> extends SimpleObjectProperty<T> {
     private final WeakReference<Attribute> attributeRef;

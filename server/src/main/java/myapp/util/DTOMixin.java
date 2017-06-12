@@ -13,8 +13,7 @@ import myapp.util.AttributeDescription;
 
 /**
  * Some handy methods for DTO handling.
- *
- * @author Dieter Holz
+
  */
 public interface DTOMixin {
 

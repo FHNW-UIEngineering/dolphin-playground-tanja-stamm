@@ -25,8 +25,6 @@ import myapp.util.veneer.dolphinattributeadapter.StringAttributeAdapter;
  * Encapsulate all the information about a single data field to drive a Rich UI that deserve its name.
  *
  * Provides the information as JavaFX Properties.
- *
- * @author Dieter Holz
  */
 public abstract class AttributeFX<PropertyType extends Property<ValueType>, ValueType> {
     protected static final Locale DEFAULT_LOCALE = Language.GERMAN.getLocale();

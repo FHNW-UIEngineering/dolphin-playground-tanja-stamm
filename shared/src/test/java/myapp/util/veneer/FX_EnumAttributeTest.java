@@ -4,9 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-/**
- * @author Dieter Holz
- */
+
 public class FX_EnumAttributeTest {
     @Test
     public void testCreateRegex(){
